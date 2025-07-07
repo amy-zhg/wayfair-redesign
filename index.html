@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 " />
+
+    <title>Wayfair Site Redesign</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style.scss" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!-- import fontawesome    -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!--  import Google Fonts    -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <!--   Navigation   -->
+    <nav>
+      <div class="nav_container">
+        <img
+          src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2Fwayfair-logo-vector.svg?v=1613964137828"
+          alt="logo"
+          class="logo"
+        />
+        <div class="nav_menu">
+          <p>Shop</p>
+          <p>Wishlist</p>
+          <p>Registry</p>
+          <p>Account</p>
+          <span>Cart</span>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+    </nav>
+    <!--  Hero    -->
+    <section class="hero">
+      <div class="hero_content">
+        <h1 class="hero_header">Find anything home</h1>
+
+        <form id="search" action="#">
+          <input type="text" placeholder="Search.." name="search" />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </section>
+    <!--  Section 1  -->
+    <section class="grid">
+      <div class="section_container">
+        <div class="grid_header_container">
+          <h2 class="grid_header">Shop by Department</h2>
+        </div>
+        <div class="grid_container">
+          <!--     grid-item-1     -->
+          <div class="grid_content">
+            <img
+              src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2FAppliances.png?v=1615100829635"
+              alt="image"
+              class="grid_image"
+            />
+            <p>Kitchen</p>
+          </div>
+          <!--     grid-item-2     -->
+          <div class="grid_content">
+            <img
+              src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2FBedBath.png?v=1615100858191"
+              alt="image"
+              class="grid_image"
+            />
+            <p>Bed & Bath</p>
+          </div>
+          <!--     grid-item-3     -->
+          <div class="grid_content">
+            <img
+              src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2FRenovation.png?v=1615100841338"
+              alt="image"
+              class="grid_image"
+            />
+            <p>Vanity</p>
+          </div>
+          <!--     grid-item-4     -->
+          <div class="grid_content">
+            <img
+              src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2FFurniture.png?v=1615100858191"
+              alt="image"
+              class="grid_image"
+            />
+            <p>Furniture</p>
+          </div>
+          <!--     grid-item-5    -->
+          <div class="grid_content">
+            <img
+              src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2FDecor.png?v=1615100858192"
+              alt="image"
+              class="grid_image"
+            />
+            <p>Decor</p>
+          </div>
+          <!--     grid-item-6     -->
+          <div class="grid_content">
+            <img
+              src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2FOutdoor.png?v=1615100849749"
+              alt="image"
+              class="grid_image"
+            />
+            <p>Outdoor</p>
+          </div>
+          <!--     grid-item-7     -->
+          <div class="grid_content">
+            <img
+              src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2FOrganization.png?v=1615100862510"
+              alt="image"
+              class="grid_image"
+            />
+            <p>Organization</p>
+          </div>
+          <!--     grid-item-8     -->
+          <div class="grid_content">
+            <img
+              src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2FBabyKids.png?v=1615100860246"
+              alt="image"
+              class="grid_image"
+            />
+            <p>Baby & Kids</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--   Section 2   -->
+    <section class="blog">
+      <div class="blog_container">
+        <img
+          src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2Fphoto-1524758631624-e2822e304c36.jpeg?v=1615100841654"
+          alt="inspiration"
+          class="blog_img"
+        />
+        <div class="blog_content">
+          <h2>Need Inspiration?</h2>
+          <div class="btn btn_primary">Check out our blog!</div>
+        </div>
+        <img
+          src="https://cdn.glitch.com/6b972bb9-0e1a-43ce-aa2e-a055f28d398d%2Fphoto-1544457070-4cd773b4d71e.jpeg?v=1615100841597"
+          alt="inspiration"
+          class="blog_img"
+        />
+      </div>
+    </section>
+    <!--   Footer   -->
+    <footer>
+      <div class="footer_container">
+        <div class="about">
+          <h3>About</h3>
+          <a href="#" class="about_link">Team</a>
+          <a href="#" class="about_link">Careers</a>
+          <a href="#" class="about_link">Blog</a>
+          <a href="#" class="about_link">Locations</a>
+        </div>
+        <div class="contact">
+          <h3>Contact</h3>
+          <a href="#" class="help_link">FAQ</a>
+          <a href="#" class="help_link">Return Policy</a>
+          <a href="#" class="help_link">Privacy Policy</a>
+          <a href="#" class="help_link">Help Center</a>
+        </div>
+        <div class="email_container">
+          <h3>Subscribe for exclusive deals!</h3>
+          <form id="subscribe" action="#">
+            <input type="email" placeholder="Email Address" name="email" />
+            <button type="submit" class="subscribe_btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
